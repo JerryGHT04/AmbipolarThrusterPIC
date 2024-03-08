@@ -22,3 +22,5 @@ By taking the whole device as a whole, an electric field will be induced by ions
 ![911afcac75b86f64cdf8a75bf34c010](https://github.com/JerryGHT04/AmbipolarThrusterPIC/assets/162717938/86a609e5-9d5b-433a-8fba-27111497be80)
 
 In this version, ion source rate = electron source rate. No collision is considered.
+
+This version failed to consider the volume as a whole. Therefore a symmetric ion diffusion is resulted which produces no thrust.
