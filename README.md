@@ -15,4 +15,6 @@ This version should correctly capture the Neumann boundary condition, and the el
    where Ne_lost += qArray (of the electron superpaticle lost) and Ni_lost += qArray (of the ion superpaticle lost)
 
  3. In main loop, the global variable E2 is incremented by dE each iteration to give the electric field at the boundary.
-   
+
+ 4. The simulation volume is revised. It now defines with position parameters X2, X3, X4:
+![ec4005d1ab894ffb74535f9a8eb35b9](https://github.com/JerryGHT04/AmbipolarThrusterPIC/assets/162717938/f242937e-86de-406b-90cc-c8eb191bbe8c)
