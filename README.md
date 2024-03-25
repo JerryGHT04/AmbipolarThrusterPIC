@@ -4,8 +4,7 @@ This version should correctly capture the Neumann boundary condition, and the el
 1. Poisson equation solver functions added,
    solvePoissonEquation_2Neumann_jl implements Neumann type boundary condition on both side.
    solvePoissonEquation_DN_jl implements Dirichlet type boundary condition on LHS, and Neumann boundry condition on RHS.
-   ![微信图片_20240324113952](https://github.com/JerryGHT04/AmbipolarThrusterPIC/assets/162717938/8a50a214-2c64-4b30-b76a-db7ba986a206)
-   Inside the function, A and B are modified.
+   ![fba19429ed772538ddbed74c9914f48](https://github.com/JerryGHT04/AmbipolarThrusterPIC/assets/162717938/a46ccb13-913c-47b1-8bbe-1edb12466de0)
 
 2. Particle remover function modified,
    boundaryConditionsRectangularNoWallLoss_returndE_jl added.
