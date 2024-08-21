@@ -1,0 +1,8 @@
+#PBS -l walltime=24:00:00
+#PBS -l select=1:ncpus=96:mem=36gb
+
+module load julia/1.6.4
+
+cd $PBS_O_WORKDIR
+
+julia main.jl

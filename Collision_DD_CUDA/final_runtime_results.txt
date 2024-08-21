@@ -1,0 +1,22 @@
+ ────────────────────────────────────────────────────────────────────────────────
+                                        Time                    Allocations      
+                               ───────────────────────   ────────────────────────
+       Tot / % measured:            11.2s /  81.1%            110MiB /  41.8%    
+
+ Section               ncalls     time    %tot     avg     alloc    %tot      avg
+ ────────────────────────────────────────────────────────────────────────────────
+ Poisson Equation         101    4.19s   46.2%  41.5ms   9.14MiB   19.8%  92.6KiB
+ Push Particles (Bo...    101    1.74s   19.1%  17.2ms     0.00B    0.0%    0.00B
+ Boundary Conditions      101    1.27s   14.0%  12.6ms     0.00B    0.0%    0.00B
+ Particle Count           101    533ms    5.9%  5.28ms   20.2MiB   43.7%   205KiB
+ Xenon Ionization         101    465ms    5.1%  4.60ms   41.0KiB    0.1%     416B
+ Set Magnetic Field       101    348ms    3.8%  3.44ms     0.00B    0.0%    0.00B
+ Neutral Collisions       101    277ms    3.1%  2.74ms     0.00B    0.0%    0.00B
+ Write to File            101    163ms    1.8%  1.62ms   16.8MiB   36.4%   170KiB
+ Electric Field           101   82.8ms    0.9%   820μs     0.00B    0.0%    0.00B
+ Electron Spawning        101   4.32ms    0.0%  42.7μs   20.1KiB    0.0%     204B
+ Reduce Neutral Mass      101   2.95ms    0.0%  29.2μs     0.00B    0.0%    0.00B
+ Advance Time             101   85.9μs    0.0%   850ns   1.58KiB    0.0%    16.0B
+ Anode Mass Flow          101   62.0μs    0.0%   614ns     0.00B    0.0%    0.00B
+ Neutral Spawning         101   60.6μs    0.0%   600ns     0.00B    0.0%    0.00B
+ ────────────────────────────────────────────────────────────────────────────────
